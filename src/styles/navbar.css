@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,800&display=swap');
+
+
+#navbar{
+  background-image:linear-gradient(to right, #293b73,#18b2b8);
+  z-index: 10;
+}
+
+#navbar .navbar-brand{
+  color:white;
+  margin-left: 60px;
+  font-size:35px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#navbar nav{
+  float: right;
+  margin-top: 10px;
+}
+
+#navbar .highlight, #navbar .current a {
+  color: white;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+#navbar a{
+  color: white;
+  font-size: 18px;
+}
+
+#navbar a:hover{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#navbar li{
+  float: left;
+  display: inline;
+  font-size: 18px;
+  padding: 0 20px 0 20px;
+}
