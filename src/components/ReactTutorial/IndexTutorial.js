@@ -48,7 +48,7 @@ class IndexTutorial extends Component {
 
 
   render() {
-    console.log('state imageIcon',this.state.imageIcon);
+    
     return (
       <div style={{position:'relative'}}>
       {
