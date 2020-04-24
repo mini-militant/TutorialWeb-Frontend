@@ -23,7 +23,7 @@ class Home extends React.Component{
 
 
   render(){
-    console.log('pending',pending);
+    console.log('pending',this.state.pending);
     return(
       <div >
       <Navbar />
