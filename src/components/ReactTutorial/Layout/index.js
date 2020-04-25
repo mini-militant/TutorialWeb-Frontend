@@ -92,7 +92,7 @@ function ResponsiveDrawer(props) {
           activeStyle={{
               color: "#bf4743",
             }} >
-            <MenuItem><div style={{fontFamily:'Changa',fontSize:'16px'}}>{name}</div></MenuItem>
+            <MenuItem onClick={handleDrawerToggle}><div style={{fontFamily:'Changa',fontSize:'16px'}}>{name}</div></MenuItem>
           </NavLink>
           <Divider />
         </div>
