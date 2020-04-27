@@ -19,6 +19,9 @@ class ReactHome extends React.Component {
       case '/redux/:topicId':
            res = api.concat('/redux/getLessons');
           break;
+      case '/js/:topicId':
+         res = api.concat('/js/getLessons');
+         break;
       default:
         return null;
     }
@@ -55,7 +58,7 @@ render(){
         <Divider/>
         <div style={{padding:'20px 20px 20px 50px',
         margin:'auto',
-        lineHeight:'1.8em',
+        lineHeight:'1.7em',
         width:'100%',
         height:'auto',
         textAlign:'justify'
