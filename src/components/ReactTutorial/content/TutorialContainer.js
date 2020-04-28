@@ -1,6 +1,8 @@
 import React from 'react'
 import Divider from '@material-ui/core/Divider';
 import '../../../styles/content.css'
+import {Helmet} from 'react-helmet'
+import * as data from '../../SEOContent/SEOdata'
 
 class ReactHome extends React.Component {
 
@@ -32,7 +34,7 @@ class ReactHome extends React.Component {
   }
 
 render(){
-
+  console.log('data',data);
   let componentVal = this;
   let tutorialName = this.state.TopicContents.filter(function(topic){
     return (topic.url_id === componentVal.props.match.params.topicId)
@@ -41,6 +43,7 @@ render(){
     <div>
 
     <br/><br/>
+
 
       {tutorialName.map(lesson=>(
         <div key={lesson._id} style={{width:'100%'}}>
@@ -54,6 +57,20 @@ render(){
         }}>
               {lesson.name}
         </h1><br/>
+
+          {
+            data.SEOdata.map(item=>
+            (item.title===lesson.name)?
+            <Helmet>
+              <title>{lesson.name}</title>
+              <meta name="description" content={item.content} />
+              <meta name="keywords" content={item.keywords} />
+            </Helmet>
+            :
+            console.log('unmatched')
+          )}
+
+
 
         <Divider/>
         <div style={{padding:'20px 20px 20px 50px',
