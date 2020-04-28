@@ -2,18 +2,18 @@
       font-size:14px;
       font-family: Roboto, sans-serif;
       }
-      .heading{
+.heading{
         font-weight: 600;
       font-size:20px;
       font-family: Roboto, sans-serif;
       color: #C76C05;
       }
-      .example-content{
-      font-size:14px;
+.example-content{
+      font-size:16px;
       font-family: Roboto, sans-serif;
       color:#00a885;
       }
-	.code-centre{
+.code-centre{
 		font-size:16px;
 		font-family: Roboto, sans-serif;
 		display: block;
@@ -58,6 +58,7 @@ ol,ul{
 .info-notes{
   background-color: #e7f3fe;
   border-left: 6px solid #2196F3;
+  padding: 3px;
 }
 
 a{
