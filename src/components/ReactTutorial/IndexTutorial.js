@@ -13,8 +13,6 @@ class IndexTutorial extends Component {
     }
   }
 
-
-
   componentDidMount(){
     const api='/api';
     let res='';
