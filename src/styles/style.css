@@ -17,7 +17,7 @@ body{
 
 
 #showcase {
-  min-height: 615px;
+  min-height: 610px;
   background:url('https://tutorialwebhome.s3.ap-south-1.amazonaws.com/person_holding_bulb.jpg') no-repeat center;
   background-size: cover;
   text-align: right;
@@ -30,7 +30,7 @@ body{
   margin-bottom: 30px;
 }
 
-#showcase p h5{
+#showcase  h5{
   font-size: 20px;
 }
 
@@ -43,4 +43,18 @@ body{
   top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 600px) {
+#showcase{
+  min-height: 500px;
+  text-align: center;
+}
+#showcase h1{
+  margin-top: -130px;
+  font-size: 35px;
+}
+#showcase  h5{
+  font-size: 18px;
+}
 }
