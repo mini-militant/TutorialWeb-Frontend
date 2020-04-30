@@ -11,7 +11,8 @@
 .example-content{
       font-size:16px;
       font-family: Roboto, sans-serif;
-      color:#00a885;
+      color:#2f0061;
+      font-weight: bold;
       }
 .code-centre{
 		font-size:16px;
@@ -44,6 +45,7 @@ ol,ul{
    padding:10px;
    font-size: 11.5pt;
    font-family: Roboto, sans-serif;
+   width: fit-content;
 }
 
 .code-highlighter{
@@ -52,7 +54,6 @@ ol,ul{
      padding: 0 3px;
     font-size: 1em;
     word-break: break-word;
-
 }
 
 .info-notes{

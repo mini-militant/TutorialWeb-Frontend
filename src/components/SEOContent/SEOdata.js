@@ -101,6 +101,16 @@ export const SEOdata=[
     title:'JS-Operators',
     content:'The assignment operator (=) assigns a value to a variable.',
     keywords:'js, Javascript operator, js operators,operators'
+  },
+  {
+    title:'JS-String',
+    content:'The JavaScript string is an object that represents a sequence of characters',
+    keywords:'js, Javascript string, js string,string'
+  },
+  {
+    title:'JS-Arrays',
+    content:'In JavaScript, array is a single variable that is used to store different elements.',
+    keywords:'js, Javascript arrays,array js, js array'
   }
 
 ]
